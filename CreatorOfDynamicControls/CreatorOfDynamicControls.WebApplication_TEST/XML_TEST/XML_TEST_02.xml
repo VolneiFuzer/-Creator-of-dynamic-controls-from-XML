@@ -1,23 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 
-<Properties>
+<Controls>
 
-  <LinkButton >
-    <ID>lnkButton</ID>
-    <runat>server</runat>
-  </LinkButton >
-
-  <ImageButton  >
-    <ID>imgButton</ID>
-    <runat>server</runat>
-    <ImageUrl>https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTvcpJuU7ds3zsulQEJf9KIWAnofcxp0LPkGaz5Ymel1BWSxvz4_zEzlw</ImageUrl>
-    <Width>25</Width>
-    <Height>25</Height>
-  </ImageButton>
-
-  <DropDownList>
-    <ID>DropDownList1</ID>
-    <runat>server</runat>    
-  </DropDownList>  
-
-</Properties>
+  <LinkButton ID="lnkButton1" 
+              runat ="server"/>
+  <ImageButton ID="imgButton" 
+               runat="server"
+               ImageUrl="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTvcpJuU7ds3zsulQEJf9KIWAnofcxp0LPkGaz5Ymel1BWSxvz4_zEzlw"
+               Width="25"
+               Height="25" />
+  <DropDownList ID="DropDownList1" 
+                runat="server"/>
+  
+</Controls>

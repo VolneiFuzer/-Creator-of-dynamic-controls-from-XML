@@ -1,17 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<Properties>
 
-  <TextBox>
-    <ID>TextBox01</ID>
-    <runat>server</runat>
-    <value>Teste</value>
-  </TextBox>
+<Controls>
 
-  <Button>
-    <ID>Button1</ID>
-    <runat>server</runat>
-    <Text>Button</Text>
-    <OnClick>Button1_Click</OnClick>
-  </Button>
+  <TextBox ID="TextBox01" 
+           runat="server" 
+           value="Teste"/>
 
-</Properties>
+  <Button ID="Button1" 
+          runat="server" 
+          Text="Button" OnClick="Button1_Click"/>
+
+</Controls>

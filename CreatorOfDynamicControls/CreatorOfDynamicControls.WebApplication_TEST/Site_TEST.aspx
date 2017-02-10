@@ -14,11 +14,16 @@
             &nbsp
         <asp:Button ID="Button3" runat="server" Text="Teste POSTBACK" OnClick="Button3_Click" />
     </div><br />
-    <div>
-        <asp:TextBox ID="TextBox1" runat="server" Height="347px" TextMode="MultiLine" Width="299px"></asp:TextBox>
-            &nbsp
-        <asp:Panel ID="Panel1" runat="server"></asp:Panel>
-    </div>
+        <asp:Table ID="Table1" runat="server">
+            <asp:TableRow  ID="TableRow1" runat="server">
+                <asp:TableCell>
+                    <asp:TextBox ID="TextBox1" runat="server" Height="347px" TextMode="MultiLine" Width="299px"></asp:TextBox>
+                </asp:TableCell>
+                <asp:TableCell VerticalAlign="Top">
+                    <asp:Panel ID="Panel1" runat="server"></asp:Panel>
+                </asp:TableCell>
+            </asp:TableRow>
+        </asp:Table>
     </form>
 </body>
 </html>
