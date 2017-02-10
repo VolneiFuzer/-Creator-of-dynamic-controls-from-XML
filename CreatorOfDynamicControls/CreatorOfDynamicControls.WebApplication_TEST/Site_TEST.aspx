@@ -4,7 +4,8 @@
 <body>
     <form id="form1" runat="server">
     <div>
-        <input id="Text1" type="text" value="URL do XML"/>
+        <asp:DropDownList ID="DropDownList1" runat="server" Width="230px"></asp:DropDownList>
+        &nbsp;
         <asp:Button ID="Button1" runat="server" Text="Ler XML" OnClick="Button1_Click" />
     </div><br />
     <div>
@@ -13,9 +14,9 @@
         <asp:Button ID="Button3" runat="server" Text="Teste POSTBACK" OnClick="Button3_Click" />
     </div><br />
     <div>
-        <asp:Panel ID="Panel1" runat="server"></asp:Panel>
+        <asp:TextBox ID="TextBox1" runat="server" Height="347px" TextMode="MultiLine" Width="299px"></asp:TextBox>
             &nbsp
-        <asp:Panel ID="Panel2" runat="server"></asp:Panel>
+        <asp:Panel ID="Panel1" runat="server"></asp:Panel>
     </div>
     </form>
 </body>

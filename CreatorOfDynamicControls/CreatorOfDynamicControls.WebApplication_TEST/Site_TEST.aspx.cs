@@ -6,12 +6,17 @@ namespace CreatorOfDynamicControls.WebApplication_TEST
 	{
 		protected void Page_Load(object sender, EventArgs e)
 		{
-
+			if (!IsPostBack)
+			{
+				ReadXML RedEngine = new ReadXML();
+				DropDownList1.DataSource = RedEngine.ListOfListBox();
+				DropDownList1.DataBind();
+			}
 		}
 
 		protected void Button1_Click(object sender, EventArgs e)
 		{
-
+			
 		}
 
 		protected void Button2_Click(object sender, EventArgs e)

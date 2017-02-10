@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<Property>
+<Properties>
 
   <TextBox>
     <ID>TextBox01</ID>
@@ -14,4 +14,4 @@
     <OnClick>Button1_Click</OnClick>
   </Button>
 
-</Property>
+</Properties>
