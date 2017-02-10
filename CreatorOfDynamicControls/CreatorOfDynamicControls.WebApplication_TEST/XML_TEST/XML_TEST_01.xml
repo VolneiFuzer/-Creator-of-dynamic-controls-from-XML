@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Property>
+
+  <TextBox>
+    <ID>TextBox01</ID>
+    <runat>server</runat>
+    <value>Teste</value>
+  </TextBox>
+
+  <Button>
+    <ID>Button1</ID>
+    <runat>server</runat>
+    <Text>Button</Text>
+    <OnClick>Button1_Click</OnClick>
+  </Button>
+
+</Property>
