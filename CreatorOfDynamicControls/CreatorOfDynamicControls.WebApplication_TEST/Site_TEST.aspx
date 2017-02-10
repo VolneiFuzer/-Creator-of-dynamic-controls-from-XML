@@ -1,4 +1,5 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Site_TEST.aspx.cs" Inherits="CreatorOfDynamicControls.WebApplication_TEST.Site_TEST" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Site_TEST.aspx.cs" 
+    Inherits="CreatorOfDynamicControls.WebApplication_TEST.Site_TEST" validateRequest="false"%>
 <!DOCTYPE html> <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server"> <title>Página inicial</title> </head>
 <body>

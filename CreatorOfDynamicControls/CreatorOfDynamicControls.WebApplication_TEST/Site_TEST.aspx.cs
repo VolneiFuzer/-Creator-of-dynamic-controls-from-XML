@@ -8,7 +8,7 @@ namespace CreatorOfDynamicControls.WebApplication_TEST
 		{
 			if (!IsPostBack)
 			{
-				ReadXML RedEngine = new ReadXML();
+				XMLReader RedEngine = new XMLReader();
 				DropDownList1.DataSource = RedEngine.ListOfListBox();
 				DropDownList1.DataBind();
 			}
@@ -16,7 +16,8 @@ namespace CreatorOfDynamicControls.WebApplication_TEST
 
 		protected void Button1_Click(object sender, EventArgs e)
 		{
-			
+			XMLReader RedEngine = new XMLReader();
+			TextBox1.Text = RedEngine.XMLContentDisplayer(DropDownList1.SelectedValue);
 		}
 
 		protected void Button2_Click(object sender, EventArgs e)
@@ -26,7 +27,6 @@ namespace CreatorOfDynamicControls.WebApplication_TEST
 
 		protected void Button3_Click(object sender, EventArgs e)
 		{
-
 		}
 	}
 }

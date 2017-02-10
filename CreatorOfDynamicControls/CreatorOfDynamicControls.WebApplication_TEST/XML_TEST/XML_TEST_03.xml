@@ -1,1 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Properties>
+
+  <ListBox >
+    <ID>ListBox1</ID>
+    <runat>server</runat>
+    <ListItem>Item 01</ListItem>
+    <ListItem>Item 02</ListItem>
+  </ListBox >
+
+</Properties>
