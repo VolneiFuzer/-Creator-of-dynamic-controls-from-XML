@@ -9,12 +9,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{45145236-F689-439C-AE54-F46059F30422}</ProjectGuid>
+    <ProjectGuid>{6F813D70-028C-46F9-BBCA-20F6F335E85F}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CreatorOfDynamicControls.WebApplication_TEST</RootNamespace>
-    <AssemblyName>CreatorOfDynamicControls.WebApplication_TEST</AssemblyName>
+    <RootNamespace>CreatorOfDynamicControls.WebApplicationV2</RootNamespace>
+    <AssemblyName>CreatorOfDynamicControls.WebApplicationV2</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -94,14 +94,10 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="MeuFormo.ascx" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="XML_TEST\XML_TEST_02.xml" />
-    <Content Include="XML_TEST\XML_TEST_03.xml" />
-    <Content Include="XML_TEST\XML_TEST_01.xml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -110,29 +106,11 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Site_TEST.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MeuFormo.ascx.cs">
-      <DependentUpon>MeuFormo.ascx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="MeuFormo.ascx.designer.cs">
-      <DependentUpon>MeuFormo.ascx</DependentUpon>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="XMLReader.cs" />
-    <Compile Include="Site_TEST.aspx.cs">
-      <DependentUpon>Site_TEST.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Site_TEST.aspx.designer.cs">
-      <DependentUpon>Site_TEST.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="XMLTransformer.cs" />
   </ItemGroup>
-  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
@@ -146,9 +124,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>56353</DevelopmentServerPort>
+          <DevelopmentServerPort>64303</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:56353/</IISUrl>
+          <IISUrl>http://localhost:64303/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

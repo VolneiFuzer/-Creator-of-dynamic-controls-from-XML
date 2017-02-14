@@ -1,10 +1,14 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Site_TEST.aspx.cs" 
     Inherits="CreatorOfDynamicControls.WebApplication_TEST.Site_TEST" validateRequest="false"%>
+
+<%@ Register Src="~/MeuFormo.ascx" TagPrefix="uc1" TagName="MeuFormo" %>
+
 <!DOCTYPE html> <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server"> <title>Página inicial</title> </head>
 <body>
     <form id="form1" runat="server">
     <div>
+        <uc1:MeuFormo runat="server" ID="MeuFormo"/>    
         <asp:DropDownList ID="DropDownList1" runat="server" Width="230px"></asp:DropDownList>
         &nbsp;
         <asp:Button ID="Button1" runat="server" Text="Ler XML" OnClick="Button1_Click" />
@@ -20,10 +24,13 @@
                     <asp:TextBox ID="TextBox1" runat="server" Height="347px" TextMode="MultiLine" Width="299px"></asp:TextBox>
                 </asp:TableCell>
                 <asp:TableCell VerticalAlign="Top">
-                    <asp:Panel ID="Panel1" runat="server"></asp:Panel>
+                    <asp:Panel ID="Panel1" runat="server" xmlteste=""></asp:Panel>
+                  
                 </asp:TableCell>
             </asp:TableRow>
         </asp:Table>
+        <uc1:MeuFormo runat="server" ID="MeuFormo2" />       7
+        <asp:HiddenField ID="HiddenField1" runat="server" value=""/>
     </form>
 </body>
 </html>

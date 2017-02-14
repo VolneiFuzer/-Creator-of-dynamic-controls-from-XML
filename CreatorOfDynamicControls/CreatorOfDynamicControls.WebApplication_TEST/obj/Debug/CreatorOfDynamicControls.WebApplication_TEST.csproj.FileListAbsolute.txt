@@ -28,6 +28,6 @@ C:\Users\Volnei\Documents\GIT\Creator-of-dynamic-controls-from-XML\CreatorOfDyna
 C:\Users\Volnei\Documents\GIT\Creator-of-dynamic-controls-from-XML\CreatorOfDynamicControls\CreatorOfDynamicControls.WebApplication_TEST\bin\Microsoft.AI.WindowsServer.xml
 C:\Users\Volnei\Documents\GIT\Creator-of-dynamic-controls-from-XML\CreatorOfDynamicControls\CreatorOfDynamicControls.WebApplication_TEST\bin\Microsoft.ApplicationInsights.xml
 C:\Users\Volnei\Documents\GIT\Creator-of-dynamic-controls-from-XML\CreatorOfDynamicControls\CreatorOfDynamicControls.WebApplication_TEST\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\Volnei\Documents\GIT\Creator-of-dynamic-controls-from-XML\CreatorOfDynamicControls\CreatorOfDynamicControls.WebApplication_TEST\obj\Debug\CreatorOfDynamicControls.WebApplication_TEST.csprojResolveAssemblyReference.cache
 C:\Users\Volnei\Documents\GIT\Creator-of-dynamic-controls-from-XML\CreatorOfDynamicControls\CreatorOfDynamicControls.WebApplication_TEST\obj\Debug\CreatorOfDynamicControls.WebApplication_TEST.dll
 C:\Users\Volnei\Documents\GIT\Creator-of-dynamic-controls-from-XML\CreatorOfDynamicControls\CreatorOfDynamicControls.WebApplication_TEST\obj\Debug\CreatorOfDynamicControls.WebApplication_TEST.pdb
+C:\Users\Volnei\Documents\GIT\Creator-of-dynamic-controls-from-XML\CreatorOfDynamicControls\CreatorOfDynamicControls.WebApplication_TEST\obj\Debug\CreatorOfDynamicControls.WebApplication_TEST.csprojResolveAssemblyReference.cache
