@@ -8,34 +8,31 @@ namespace CreatorOfDynamicControls.WebApplication_TEST
 	{
 		protected void Page_Load(object sender, EventArgs e)
 		{
-			MeuFormo.XML = "dkwjlk";
-			MeuFormo.Draw();
-			//meuform.Load(xml);
-			//string validade = HiddenField1.Value;
+			string validade = HiddenField1.Value;
 
-			//if (!IsPostBack)
-			//{
-			//	XMLReader RedEngine = new XMLReader();
-			//	DropDownList1.DataSource = RedEngine.ListOfListBox();
-			//	DropDownList1.DataBind();
-			//}
-			//else if (validade == "true")
-			//{
-			//	Panel1.Controls.Clear();
+			if (!IsPostBack)
+			{
+				XMLReader RedEngine = new XMLReader();
+				DropDownList1.DataSource = RedEngine.ListOfListBox();
+				DropDownList1.DataBind();
+			}
+			else if (validade == "true")
+			{
+				Panel1.Controls.Clear();
 
-			//	XMLTransformer transf = new XMLTransformer();
-			//	foreach (WebControl w in transf.ListOfControls())
-			//	{
-			//		Panel1.Controls.Add(w);
-			//		Panel1.Controls.Add(new LiteralControl("<br />"));
-			//	}
-			//}
+				XMLTransformer transf = new XMLTransformer();
+				foreach (WebControl w in transf.ListOfControls(DropDownList1.SelectedValue))
+				{
+					Panel1.Controls.Add(w);
+					Panel1.Controls.Add(new LiteralControl("<br />"));
+				}
+			}
 		}
 
 		protected void Button1_Click(object sender, EventArgs e)
 		{
-			XMLReader RedEngine = new XMLReader();
-			TextBox1.Text = RedEngine.XMLContentDisplayer(DropDownList1.SelectedValue);
+			XMLReader ReadEngine = new XMLReader();
+			TextBox1.Text = ReadEngine.XMLContentDisplayer(DropDownList1.SelectedValue);
 		}
 
 		protected void Button2_Click(object sender, EventArgs e)
@@ -50,7 +47,8 @@ namespace CreatorOfDynamicControls.WebApplication_TEST
 			}
 
 			XMLTransformer transf = new XMLTransformer();
-			foreach (WebControl w in transf.ListOfControls())
+
+			foreach (WebControl w in transf.ListOfControls(DropDownList1.SelectedValue))
 			{
 				Panel1.Controls.Add(w);
 				Panel1.Controls.Add(new LiteralControl("<br />"));

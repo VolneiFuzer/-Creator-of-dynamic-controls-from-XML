@@ -34,6 +34,7 @@ namespace CreatorOfDynamicControls.WebApplication_TEST
 		public string XMLContentDisplayer(string selectXML)
 		{
 			StringBuilder textOfXml = new StringBuilder();
+
 			try
 			{
 				string xmlFolder = FOLDER + "\\" + selectXML;

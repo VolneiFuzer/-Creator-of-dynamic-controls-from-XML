@@ -1,0 +1,9 @@
+C:\Users\Volnei\Documents\GIT\Creator-of-dynamic-controls-from-XML\CreatorOfDynamicControls\Teste\bin\Debug\Teste.exe.config
+C:\Users\Volnei\Documents\GIT\Creator-of-dynamic-controls-from-XML\CreatorOfDynamicControls\Teste\bin\Debug\Teste.exe
+C:\Users\Volnei\Documents\GIT\Creator-of-dynamic-controls-from-XML\CreatorOfDynamicControls\Teste\bin\Debug\Teste.pdb
+C:\Users\Volnei\Documents\GIT\Creator-of-dynamic-controls-from-XML\CreatorOfDynamicControls\Teste\obj\Debug\Teste.csprojResolveAssemblyReference.cache
+C:\Users\Volnei\Documents\GIT\Creator-of-dynamic-controls-from-XML\CreatorOfDynamicControls\Teste\obj\Debug\Teste.Form1.resources
+C:\Users\Volnei\Documents\GIT\Creator-of-dynamic-controls-from-XML\CreatorOfDynamicControls\Teste\obj\Debug\Teste.Properties.Resources.resources
+C:\Users\Volnei\Documents\GIT\Creator-of-dynamic-controls-from-XML\CreatorOfDynamicControls\Teste\obj\Debug\Teste.csproj.GenerateResource.Cache
+C:\Users\Volnei\Documents\GIT\Creator-of-dynamic-controls-from-XML\CreatorOfDynamicControls\Teste\obj\Debug\Teste.exe
+C:\Users\Volnei\Documents\GIT\Creator-of-dynamic-controls-from-XML\CreatorOfDynamicControls\Teste\obj\Debug\Teste.pdb

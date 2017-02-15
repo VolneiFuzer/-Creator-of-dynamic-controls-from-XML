@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Controls>
+
+  <LinkButton ID="lnkButton1" 
+              runat ="server"/>
+  <ImageButton ID="imgButton" 
+               runat="server"
+               ImageUrl="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTvcpJuU7ds3zsulQEJf9KIWAnofcxp0LPkGaz5Ymel1BWSxvz4_zEzlw"
+               Width="25"
+               Height="25" />
+  <DropDownList ID="DropDownList1" 
+                runat="server"/>
+  
+</Controls>
