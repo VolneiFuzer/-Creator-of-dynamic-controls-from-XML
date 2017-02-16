@@ -2,7 +2,7 @@
 
 <Controls>
 
-  <ListBox ID="ListBox1" 
+  <ListBox name="ListBox1" 
            runat="server"/>
 
 </Controls>

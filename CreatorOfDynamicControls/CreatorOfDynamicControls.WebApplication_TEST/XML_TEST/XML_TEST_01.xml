@@ -2,13 +2,18 @@
 
 <Controls>
 
-  <TextBox ID="TextBox01"
+  <TextBox name="TextBox01"
            runat="server"
-           value="Teste"/>
+           value="Isto é um TextBox"/>
 
-  <Button ID="Button1"
+  <Button name="Button1"
+          value="teste com bt value"
+          Text="Button Teste"
           runat="server"
-          Text="Button" 
           OnClick="Button1_Click"/>
 
+  <Button name="btn 02"
+          runat="server"
+          value="teste com btn02"/>
+  
 </Controls>

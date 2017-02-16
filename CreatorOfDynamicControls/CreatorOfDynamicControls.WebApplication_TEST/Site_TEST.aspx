@@ -8,7 +8,7 @@
     <div>
         <asp:DropDownList ID="DropDownList1" runat="server" Width="230px"></asp:DropDownList>
         &nbsp;
-        <asp:Button ID="Button1" runat="server" Text="Ler XML" OnClick="Button1_Click" />
+        <asp:Button ID="Button1" runat="server" Text="Ler XML" OnClick="Button1_Click"/>
     </div><br />
     <div>
         <asp:Button ID="Button2" runat="server" Text="Gerar controles" OnClick="Button2_Click" />

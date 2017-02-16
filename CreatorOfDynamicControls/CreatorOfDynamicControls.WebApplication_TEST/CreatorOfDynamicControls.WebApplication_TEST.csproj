@@ -94,13 +94,14 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Imagens\download.jpg" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="XML_TEST\XML_TEST_01.xml" />
     <Content Include="XML_TEST\XML_TEST_02.xml" />
     <Content Include="XML_TEST\XML_TEST_03.xml" />
-    <Content Include="XML_TEST\XML_TEST_01.xml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
