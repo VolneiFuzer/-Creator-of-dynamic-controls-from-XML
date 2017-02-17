@@ -5,7 +5,7 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreatorOfDynamicControls.WebApplication_TEST", "CreatorOfDynamicControls.WebApplication_TEST\CreatorOfDynamicControls.WebApplication_TEST.csproj", "{45145236-F689-439C-AE54-F46059F30422}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreatorOfDynamicControls.WebApplicationV2", "CreatorOfDynamicControls.WebApplicationV2\CreatorOfDynamicControls.WebApplicationV2.csproj", "{6F813D70-028C-46F9-BBCA-20F6F335E85F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreatorOfDynamicControls.WebApplication", "CreatorOfDynamicControls.WebApplicationV2\CreatorOfDynamicControls.WebApplication.csproj", "{6F813D70-028C-46F9-BBCA-20F6F335E85F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
