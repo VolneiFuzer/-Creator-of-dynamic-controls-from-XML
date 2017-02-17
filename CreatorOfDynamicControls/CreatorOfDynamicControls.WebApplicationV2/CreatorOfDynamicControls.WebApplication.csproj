@@ -94,6 +94,8 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Imagens\button-icon-png-21046-16x16.ico" />
+    <Content Include="Imagens\button-icon-png-21046.png" />
     <Content Include="Imagens\download.jpg" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">

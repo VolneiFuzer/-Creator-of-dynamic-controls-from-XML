@@ -11,7 +11,6 @@ namespace CreatorOfDynamicControls.WebApplicationV2
 		{
 			string folderEArquivo = (FOLDER + "\\XML_TEST_01.xml");
 			CustomForm01.myXmlDoc = folderEArquivo;
-			//CustomForm01.toDrawControls(); // ???
 		}
 	}
 }

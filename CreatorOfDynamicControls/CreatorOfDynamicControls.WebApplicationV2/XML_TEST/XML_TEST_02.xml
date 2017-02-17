@@ -7,9 +7,9 @@
 
   <ImageButton name="imgButton"
                runat="server"
-               ImageUrl= "C:\Users\Volnei\Documents\GIT\Creator-of-dynamic-controls-from-XML\CreatorOfDynamicControls\CreatorOfDynamicControls.WebApplication_TEST\Imagens\download.jpg"
-               Width="100"
-               Height="100"/>
+               ImageUrl= "C:\Users\Volnei\Documents\GIT\Creator-of-dynamic-controls-from-XML\CreatorOfDynamicControls\CreatorOfDynamicControls.WebApplication_TEST\Imagens\button-icon-png-21046-16x16.ico"
+               Width="200"
+               Height="200"/>
   
   <DropDownList name="DropDownList1" 
                 runat="server"/>
